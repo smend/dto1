@@ -3,6 +3,7 @@ import {Algorithm} from './algorithm';
 import {FhirHook} from './fhir-hook';
 import {V2Hook} from './v2-hook';
 import {PrognoseElement} from './prognose-element';
+import {Observation} from './observation';
 
 export class TemplateBody {
   id: number;
@@ -13,7 +14,10 @@ export class TemplateBody {
   fhirHooK: FhirHook;
   v2Hook: V2Hook ;
   appliedAlgorithms: Algorithm[];
-  prognoseElement: PrognoseElement[];
+  encauterObservations: Observation[];
+  pastObservations: Observation[];
+
+
 
 
 

@@ -5,7 +5,7 @@ import { AlgoHook } from './algo-hook';
 export class YesnoQuestion extends QuestionBase {
   controlType = 'yesno';
   buttons: {key: string, value: string, order: number, showArrayOnSelect: number[],
-    fhirHook: FhirHook, v2Hook: V2Hook, algoArray: {key: string, algoHook: AlgoHook}[];
+    fhirHook: FhirHook, v2Hook: V2Hook, algoHookArray: {key: string, algoHook: AlgoHook}[];
 
   // TODO : INITIATE THE YES NO BUTTONS WITH ONLY THE KEY
 }
